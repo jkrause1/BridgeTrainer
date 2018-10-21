@@ -74,6 +74,7 @@ Wenn das Programm ohne das --retrain-Argument ausgeführt wird und Gewichtungen 
 
 Wenn nach 50 Epochen keine Verbesserung in der Genauigkeit des Netzwerkes festgestellt werden kann, bricht das Programm automatisch weiteres Training ab.
 
+
 ## Modellverzeichnis
 Sofern kein Modellverzeichnis angegeben, kreiert das Programm aus folgenden Parametern selbstständig einen Ordnernamen:
 
