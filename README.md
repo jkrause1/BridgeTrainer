@@ -72,6 +72,8 @@ Traininert ein neuronales Netz mithilfe von Bilddaten und führt Klassifizierung
 
 Wenn das Programm ohne das --retrain-Argument ausgeführt wird und Gewichtungen für ein Modell bereits existieren, wird das Modell nicht erneut trainiert, und nur ein Klassifizierungsdurchgang durchgeführt.
 
+Wenn nach 50 Epochen keine Verbesserung in der Genauigkeit des Netzwerkes festgestellt werden kann, bricht das Programm automatisch weiteres Training ab.
+
 ## Modellverzeichnis
 Sofern kein Modellverzeichnis angegeben, kreiert das Programm aus folgenden Parametern selbstständig einen Ordnernamen:
 
