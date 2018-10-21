@@ -69,6 +69,9 @@ Traininert ein neuronales Netz mithilfe von Bilddaten und führt Klassifizierung
 | -l       | --learning-rate= | (Optional) Default=0.01. Lernrate des neuronalen Netzwerkes.                            |
 | -o       | --optimizer=     | (Optional) Default=sgd. Verwendeter Algorithmus. Mögliche Werte: sgd, adam, rmsprop     |
 
+
+Wenn das Programm ohne das --retrain-Argument ausgeführt wird und Gewichtungen für ein Modell bereits existieren, wird das Modell nicht erneut trainiert, und nur ein Klassifizierungsdurchgang durchgeführt.
+
 ## Modellverzeichnis
 Sofern kein Modellverzeichnis angegeben, kreiert das Programm aus folgenden Parametern selbstständig einen Ordnernamen:
 
