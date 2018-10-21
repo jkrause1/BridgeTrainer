@@ -98,7 +98,7 @@ In das Modellverzeichnis werden folgende Dateien während des Trainings und Test
 | loss.png | Ein Graph, welcher die Fehlerrate des Modells während des Trainings darstellt. |
 | val_acc.png | Ein Graph, welcher die Genauigkeit des Modells während des Trainings darstellt, in dem es gegen ein Validation-Set geprüft wurde, mit dem es keine Schnittmenge mit dem Trainingsset gibt. |
 | val_loss.png | Ein Graph, welcher die Fehlerrate des Modells während des Trainings darstellt, in dem es gegen ein Validation-Set geprüft wurde, mit dem es keine Schnittmenge mit dem Trainingsset gibt. |
-| conf_matrix.png | Eine Konfusionsmatrix, die angibt, wie genau das Netz Bilder den einzelnen Klassen zuordnet. **Wichtig!** Momentan wird aufgrund einer Einschränkung in der dafür verwendeten Bibliothek dieses Bild nicht automatisch angelegt, sondern muss manuell nach einem Klassifizierungsdurchgang aus dem Terminal kopiert werden. |
+| conf_matrix.png | Eine Konfusionsmatrix, die angibt, wie genau das Netz Bilder den einzelnen Klassen zuordnet. **Wichtig!** Momentan wird aufgrund einer Einschränkung in der dafür verwendeten Bibliothek dieses Bild nicht automatisch angelegt, sondern muss manuell nach einem Klassifizierungsdurchgang aus der Spyder-Konsole kopiert werden. |
 | notes.txt | Beinhaltet Informationen zu Trainings- und Klassifizierungsdurchgängen wie Trainingsdauer, verwendete Parameter, Anzahl Bilder, Anzahl Labels, Anzahl Klassen, etc. |
 | predictions.png | Eine Grafik, die alle Bilder aus dem Test-Datenset mit ihrem dazugehörigem tatsächlichem, und vom Netz zugewiesenem Label darstellt. | 
 | predictions.txt | Eine Textform von predictions.png. |
